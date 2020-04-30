@@ -1,0 +1,537 @@
+*{
+	box-sizing: border-box;
+}
+a:hover{
+	color:#3498db !important;
+}
+body{
+	color: black;
+	font-family: comic sans ms;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	cursor: default;
+}
+.pointer_{
+	cursor: pointer;
+}
+.container{
+	position: absolute;
+	top:0;
+	float: left;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color:;
+}
+.top{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 60px;
+	color: white;
+	line-height: 60px;
+	background:#34495e;
+	#border: 1px solid black;
+	font-weight: bold;
+}
+.top a{
+	color:white;
+	text-decoration: none;
+}
+span{
+	padding-left: 30px;
+}
+.foot{
+	position: absolute;
+	bottom:0;
+	height: 45px;
+	width: 100%;
+	background-color: #fff;
+	line-height: 45px;
+	text-align: center;
+}
+.foot a{
+	color: #3498db;
+}
+.foot a:active{
+	color: darkred;
+}
+.corps{
+	position: relative;
+	top:62px;
+	width: 100%;
+	height: calc(100% - 110px);
+	background-color:#fff;
+}
+.menu_gauche{
+	position: relative;
+	float: left;
+	left:80px;
+	top:0;
+	width: 240px;
+	height: 100%;
+	background-color: white;
+}
+.variable_box{
+	position: relative;
+	top:28px;
+	float:;
+	width:96%;
+	height:94.6%;
+	transform: translate(2%,-10px);
+	background-color:;
+	#margin-left: 5px;
+	overflow: hidden;
+	border: .6px solid #34495e;
+	border-radius: 25px 25px 0 0;
+	padding: 3px 3px;
+}
+._for_target:hover{
+	opacity: 0.7;
+	/*font-size: 30px; */
+}
+._for_target{
+	margin-left: 50px;
+}
+.for_menu_de_gauche{
+	padding: 3px 3px;
+	font-size: 120%;
+}
+.for_menu_de_gauche button{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background-color: transparent;
+	color: black;
+	font-family: comic sans ms;
+	text-align: left;
+	padding-left: 30px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-bottom: .7px solid #34495e;
+}
+.for_menu_de_gauche button:hover{
+	background-color: #34495e;
+	color:white;
+
+}
+.agr_icons{
+	#font-size: 20px;
+}
+.ttre{
+	width: 100%;
+	height: 35px;
+	top:0;
+	background-color: #34495e;
+	line-height: 35px;
+	text-align: left;
+	color:white;
+	font-weight: bold;
+}
+.ttre_o{
+
+	width: 100%;
+	height: 35px;
+	top:0;
+	background-color: white;
+	line-height: 35px;
+	text-align: left;
+	color:black;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.make_shadow{
+	-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);
+	transition-delay: all 0.4s;
+}
+.mini_shadow{
+	-moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.2);
+	box-shadow:0px 0px 0px 5px rgba(0,0,0,0.2);
+}
+.pour_le_login{
+	position:relative;
+	width: 40%;
+	height: 300px;
+	transform: translate(40%,10%);
+	background-color:;
+	border-bottom: .4px solid #34495e; 
+	float: left;
+	padding: 4px 4px;
+}
+.spa{
+	padding-left:2%; 
+}
+.ttre_mini{
+	width:100%;
+	height: 40px;
+	top:0;
+	background-color: #34495e;
+	line-height: 40px;
+	text-align: left;
+	color:white;
+	font-weight: bold;	
+}
+.ttre_l{
+	width:100%;
+	height: 40px;
+	top:0;
+	background-color: #34495e;
+	line-height: 40px;
+	text-align: left;
+	border-radius: 24px 0 0 0;
+	color:white;
+	font-weight: bold;	
+}
+.ttre_r{
+	width:100%;
+	height: 40px;
+	top:0;
+	background-color: #34495e;
+	line-height: 40px;
+	text-align: left;
+	border-radius: 0 24px 0 0;
+	color:white;
+	font-weight: bold;
+}
+.box_user_icon{
+	width: 30%;
+	position: relative;
+	float: left;
+	left:0;
+	top:20px;
+	background:;
+}
+.box_formulaire{
+	width: 65%;
+	height:100%;
+	position: relative;
+	float: right;
+	right:0px;
+	top:10px;
+	background-color:;
+}
+.box_formulaire label{
+	position: relative;
+	width: 100%;
+	color: black;
+}
+.bott{
+	position: absolute;
+	width: 100%;
+	background-color:;
+	bottom:16%;
+}
+.bott a{
+	text-decoration: none;
+	color: #3498db;
+}
+.bott a:hover{
+	text-decoration: underline;
+}
+.for_label{
+	width: 100%;
+	margin-top:10px;
+}
+.box_formulaire input[type="text"],[type="password"]{
+	width: 100%;
+	height: 30px;
+	border: 1.8px solid #34495e;
+	outline: none;
+	padding-left: 20px;
+	font-family: comic sans ms;
+	border-radius: 9px ; 
+}
+.box_formulaire input[type="submit"]{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	border: none;
+	outline: none;
+	color: white;
+	font-weight: bold;
+	font-family: comic sans ms;
+	background-color: #34495e; 
+	line-height: 30px
+
+}
+.box_formulaire input[type="submit"]:hover{
+	background-color: #8d8989;
+	transition: .5s;
+	color:white;
+}
+.box_formulaire input[type="text"]:focus,[type="password"]:focus{
+	border: 1.8px solid #8d8989;
+	outline: none;   
+
+}
+.admin_actif{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color:;
+}
+.left_ad{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 100%;
+	top:0;
+	background-color: white;
+	border-radius: 23.3px 0 0 0;
+}
+.left_ad .menu_l{
+	position: relative;
+	width: 100%;
+	height: calc(100% - 43px);
+	top:3px;
+	background-color:#f1f1f1;
+}
+.right_ad{
+	position: relative;
+	width: calc(100% - 203px);
+	float:right;
+	height: 100%;
+	top:0;
+	background-color:;
+}
+.ttre_r a{
+	color: white;
+	text-decoration: none;
+	color:inherit;
+	padding: 4px 10px;
+}
+.ttre_r a:hover, a:focus, a:active {
+	color: #3498db;
+	transition: 0.4s;
+}
+
+.scroll_contenu{
+	position: absolute;
+	top:43px;
+	width: 100%;
+	height: calc(100% - 43px);
+	background-color:#fff;
+	overflow: hidden;
+}
+.icon_for{
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	top:4px;
+	background-color:white ;
+	float: right;
+	right: 30px;
+	line-height: 28px;
+	overflow: hidden;
+}
+/*.icon_for:focus{
+	-moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.2);
+	box-shadow:0px 0px 0px 5px rgba(0,0,0,0.2);
+	}*/
+	.icon_for input{
+		position: relative;
+		width:250px;
+		height: 100%;
+		padding: 5px;
+		outline: none;
+		float: right;
+		border: none;
+		font-family: comic sans ms;
+		font-size: 12px;
+
+	}
+	.icon_for button{
+		position: relative;
+		width: 48px;
+		height: 100%;
+		float: left;
+		font-size: 13px;
+		line-height: 25px;
+		background: transparent;
+		border: none;
+		outline: none;
+	}
+	.counting{
+
+		border: .9px solid #3498db;
+		-moz-border:.4px solid #3498db;
+		-o-border:.4px solid #3498db;
+		font-weight: normal;
+		font-size: 10px;
+		padding: 5px 5px;
+		border-radius: 24px;
+		background-color: #f1f1f1;
+		font-weight: bold;
+	}
+	.counting{
+		color:black;
+	}
+	._adt{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		float: left;
+		top:0;
+	}
+	#_cotes,
+	#_Enseignant,
+	#_Inscription,
+	#_Emploi_de_temp,
+	#_etudiant,
+	#_inscription_en_attente,
+	#_valv_mur,
+	#_add_admin{
+
+		height: 100%;
+		width: 100%;
+		padding: 5px 5px;
+		overflow-y: scroll;
+	}
+	#_cotes{
+		background: lime;
+		position: relative;
+		top:0;
+	}
+	#_etudiant{
+		background: blue;
+		position: relative;
+		top:0;
+	}
+	#_Enseignant{
+		background: green;
+		position: relative;
+		top:0;
+	}
+	#_Emploi_de_temp{
+		background: red;
+		position: relative;
+		top:0;
+	}
+	#_Inscription{
+		background: yellow;
+		position: relative;
+		top:0;
+	}
+	#_inscription_en_attente{
+		background-color: brown;
+		position: relative;
+		top:0;
+	}
+	#_valv_mur{
+		background-color: darkred;
+		position: relative;
+		top:0;
+	}
+	#_add_admin{
+		background-color: ;
+		position: relative;
+		top:0;
+	}
+	table a button{
+		height: 30px;
+		border: none;
+		background-color: #dddddd;
+		outline: none;
+		width: 100%;
+		font-family: comic sans ms;
+		text-align: left;
+	}
+	table a button:hover{
+		border-right: 2px solid #34495e;
+		transition: 0.5s;
+		background-color: #8d8989;
+		color:#fff;
+	}
+	._mini_menu{
+		width: 100%;
+		height: 100%;
+		background-color: ;
+		position:relative;
+		text-align: left;
+	}
+	._mini_menu .formulaire {
+		position: relative;
+		top:0;
+		float: left;
+		transform: translateX(20%);
+		width:35%;
+		background-color:;
+	}
+	.formulaire form label{
+		position: relative;
+		top:0;
+		width: 100%;
+		padding-left: 20px;
+		color: black;
+	}
+	.boutons{
+		position: relative;
+		top:0;
+		height: 50px;
+		background-color: ;
+		line-height: 50px;
+	}
+	.boutons span a{
+		text-decoration: none;
+		padding: 4px 10px;
+		background-color: #f1f1f1;
+	}
+	.formulaire form{
+		position: relative;
+		top:10px;
+		padding-top: 10px;
+	}
+	.error_{
+		color:red !important;
+		font-size: 12px !important;
+	}
+	.formulaire form input{
+		position: relative;
+		padding: 10px;
+		width: 100%;
+		height: 27px;
+		outline: none;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+	.formulaire form input[type="submit"]{
+		position: relative;
+		top:15px;
+		border: none;
+		background: #34495e;
+		height: 26px;
+		line-height: 26px;
+		color: white;
+		padding: 0 0;
+		margin: 0 0;
+		font-weight: bold;
+	}
+	._mini_menu .m{
+		position: relative;
+		float: left;
+		top:0;
+		left: 6%;
+		width:200px;
+		border: .6px solid #f1f1f1;
+	}
+	.others_admin{
+		position: relative;
+		top:5px;
+		width: 100%;
+		height: calc(100% - 35px);
+		text-align: left;
+		background-color: ;
+	}
+	body a:hover{
+		color: #3498db;
+		transition: 0.4s;
+	}
+/*body a:active,a:visited{
+	color:#3498db;
+}*/

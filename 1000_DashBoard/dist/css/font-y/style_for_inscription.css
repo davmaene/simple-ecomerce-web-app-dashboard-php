@@ -1,0 +1,184 @@
+.conten_demande_insc{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		overflow-y: scroll;
+		background-color: ;
+		padding: 3px 3px;
+
+	}
+	.for_text_{
+		width: 55%;
+		height: 700px;
+		position: relative;
+		top:0;
+		float: left;
+		left: 0;
+		background-color: ;
+	}
+	.text_marketing{
+		width: 80%;
+		transform: translate(12.5%,0);
+		position: relative;
+		top:0;
+		background-color: ;
+		overflow: hidden;
+		
+	}
+
+.for_formulaire{
+		width: 80%;
+		transform: translate(12.5%,0);
+		position: relative;
+		top:15px;
+		background-color:;
+		overflow: hidden;
+		height:940px; 
+}
+.fomulaire_for_insc{
+	position:relative;
+	top:10px;
+	width:90%; overflow: hidden;
+	background-color:;
+}
+.fomulaire_for_insc form{
+	width: 100%;
+	padding: 3px 3px;
+	height: 100%;
+}
+.fomulaire_for_insc form input[type='text'],select{
+	width: 100%;
+	height: 25px;
+	border: .7px solid black;
+	padding-left: 8px;
+	outline: none;
+	border-radius: 5px;
+	font-family:comic sans ms;
+	opacity: .7;
+}
+.fomulaire_for_insc form input[type='text']:focus,select:focus{
+	border: .7px solid #3498db;
+}
+.fomulaire_for_insc .for_check .hidden{
+	position: absolute;
+	top:0px;
+	width: 238px;
+	height: 25px;
+	background: red;
+	float: left;
+	left: 3px;
+	outline: none;
+	opacity:0 ;
+}
+.fomulaire_for_insc .for_check{
+	position: relative;
+	top:10px;
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: ;
+	padding-bottom: 20px;
+}
+.fomulaire_for_insc .for_check label{
+	position:absolute;
+	left: 10px;
+	top:2px;
+	color:#000;
+	opacity: .4;
+	pointer-events: none;
+	font-size: 13px;
+}
+.for_check input:focus ~ #lab,select:focus ~ #lab,
+.for_check input:valid ~ #lab,select:valid ~ #lab{
+	transition: .3s;
+	top:-18px;
+	left: 0;
+	font-size: 13px;
+	color: #34495e;
+	opacity: 1;
+}
+.fomulaire_for_insc form input[type="submit"]{
+	border: none;
+	background: #3498db;
+	position: relative;
+	width: 60%;
+	height: 28px;
+	line-height: 28px;
+	font-family: comic sans ms;
+	color: white;
+	outline: none;
+}
+.fomulaire_for_insc form input[type="submit"]:hover{
+	background-color: #3498ac;
+}
+.fomulaire_for_insc form input[type="reset"]{
+	width: 60px;
+	position: relative;
+	margin-left: 5px;
+	border: none;
+	height: 28px;
+	background-color: #1111;
+	outline: none;
+}
+.fomulaire_for_insc form input[type="reset"]:hover{
+	background-color: #34495e;
+}
+.fomulaire_for_insc form em{
+	font-size: 13px;
+	text-decoration:;
+}
+.for_img_{
+	position: absolute;
+	float: right;
+	right: 12px;
+	width: 45.5%;
+	height: 365px;
+	top:10px;
+	background-color:;
+	padding:1px 1px;
+	overflow: hidden;
+	#border: .6px solid rgba(1,1,1,.75);
+	transition: all .9s ease-in-out !important;
+
+}
+.tooltip {
+	display: inline-block;
+	position: relative;
+	display: none;
+	width: 100%;
+	font-size: 12.5px;
+	color:red;
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+#Zagreement{
+	display: none;
+	color: red;
+}
+#valideTypeOfFile{
+	display:none;
+	position: relative;
+	color:#4ecd57;
+	transition-delay: .6s;
+}
+.succes{
+	width: 100%;
+	position: relative;
+	top:8px;
+	line-height: 35px;
+	border: .6 solid rgba(2,3,1,.75);
+	#background-color: darkgreen;
+	padding-left: 10px;
+	color: darkgreen;
+	display: none;
+}
+.wheneScroll{
+	position:absolute;
+	top:415px !important;
+	transition: all .9s ease-in-out !important;
+}
+.wheneScroll_midel{
+	position:absolute;
+	top:800px !important;
+	transition: all .9s ease-in-out !important;	
+}	

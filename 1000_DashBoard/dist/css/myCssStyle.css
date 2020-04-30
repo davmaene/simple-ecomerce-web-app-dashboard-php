@@ -1,0 +1,31 @@
+.hdn{
+    display: none;
+    /* border-color: ; */
+}
+.error-border{
+    border-color: #E04343 !important;
+    /* background-color: lawngreen; */
+}
+.for-initial{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 3px 3px;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+}
+.indic-form{
+    color: #E04343;
+    font-size: 12px !important;
+    display: block;
+}
+.thumb-image{
+    /* float:left; */
+    width:100%;
+    overflow: hidden;
+    padding: 1px;
+    border: 1px solid lime;
+    /* height: ; */
+    /* position:relative; */
+    /* padding:5px; */
+   }
